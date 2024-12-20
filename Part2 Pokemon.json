@@ -1,0 +1,76 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nombre": "Pikachu",
+      "tipo": ["Eléctrico"],
+      "peso": "6 kg",
+      "altura": "40 cm",
+      "estadisticas": {
+        "velocidad": 90,
+        "fuerza": 55,
+        "precision": 70,
+        "resistencia": 50
+      },
+      "movimientos": [
+        {
+          "nombre": "Impactrueno",
+          "descripcion": "Un rayo de electricidad cae sobre el objetivo.",
+          "potencia": 40,
+          "contacto": false
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "descripcion": "El usuario embiste al objetivo a una velocidad casi invisible.",
+          "potencia": 40,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+      "evoluciones": [
+        {
+          "id": 2,
+          "nivel_necesario": 16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Charmander",
+      "tipo": ["Fuego"],
+      "peso": "8.5 kg",
+      "altura": "60 cm",
+      "estadisticas": {
+        "velocidad": 65,
+        "fuerza": 52,
+        "precision": 60,
+        "resistencia": 43
+      },
+      "movimientos": [
+        {
+          "nombre": "Ascuas",
+          "descripcion": "El objetivo es atacado con pequeñas llamas.",
+          "potencia": 40,
+          "contacto": false
+        },
+        {
+          "nombre": "Arañazo",
+          "descripcion": "Garras duras y afiladas rasgan al objetivo.",
+          "potencia": 40,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "evoluciones": [
+        {
+          "id": 5,
+          "nivel_necesario": 16
+        },
+        {
+          "id": 6,
+          "nivel_necesario": 36
+        }
+      ]
+    }
+  ]
+}

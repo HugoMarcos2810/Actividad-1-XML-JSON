@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Ejemplo de XML para gestionar una tienda online.
+    Incluye información de 4 productos, con una estructura detallada, atributos y niveles de profundidad.
+-->
+<tienda>
+    <!-- Lista principal de productos -->
+    <productos>
+        <!-- Primer producto -->
+        <producto id="P001" destacado="true">
+            <detalles>
+                <nombre>Smartphone XYZ</nombre>
+                <informacion>
+                    <descripcion>Smartphone con pantalla OLED y cámara triple.</descripcion>
+                    <precio moneda="EUR">699.99</precio>
+                    <categoria>
+                        <principal>Electrónica</principal>
+                        <subcategoria>Smartphones</subcategoria>
+                    </categoria>
+                </informacion>
+                <disponibilidad estado="en_stock">En stock</disponibilidad>
+            </detalles>
+            <imagen>https://m.media-amazon.com/images/I/41OUNhml02L._AC_UF894,1000_QL80_.jpg</imagen>
+        </producto>
+
+        <!-- Segundo producto -->
+        <producto id="P002" destacado="false">
+            <detalles>
+                <nombre>Auriculares inalámbricos ABC</nombre>
+                <informacion>
+                    <descripcion>Auriculares Bluetooth con cancelación de ruido.</descripcion>
+                    <precio moneda="EUR">149.99</precio>
+                    <categoria>
+                        <principal>Accesorios</principal>
+                        <subcategoria>Auriculares</subcategoria>
+                    </categoria>
+                </informacion>
+                <disponibilidad estado="agotado">Agotado</disponibilidad>
+            </detalles>
+            <imagen>https://mandatelo.com/img/p/4/9/7/9/8/49798-large_default.jpg</imagen>
+        </producto>
+
+        <!-- Tercer producto -->
+        <producto id="P003" destacado="true">
+            <detalles>
+                <nombre>Tablet MNO</nombre>
+                <informacion>
+                    <descripcion>Tablet ligera con pantalla de 10 pulgadas y 128 GB de almacenamiento.</descripcion>
+                    <precio moneda="USD">299.99</precio>
+                    <categoria>
+                        <principal>Electrónica</principal>
+                        <subcategoria>Tablets</subcategoria>
+                    </categoria>
+                </informacion>
+                <disponibilidad estado="en_stock">En stock</disponibilidad>
+            </detalles>
+            <imagen>https://www.movistar.es/estaticos/imagenes/terminales-moviles/ficha-445/ipad-cellular-10-9-10-generacion-silver-01.png</imagen>
+        </producto>
+
+        <!-- Cuarto producto -->
+        <producto id="P004" destacado="false">
+            <detalles>
+                <nombre>Reloj inteligente QRS</nombre>
+                <informacion>
+                    <descripcion>Reloj inteligente con seguimiento de actividad física y notificaciones.</descripcion>
+                    <precio moneda="EUR">199.99</precio>
+                    <categoria>
+                        <principal>Electrónica</principal>
+                        <subcategoria>Relojes inteligentes</subcategoria>
+                    </categoria>
+                </informacion>
+                <disponibilidad estado="en_stock">En stock</disponibilidad>
+            </detalles>
+            <imagen>https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/6459862695123_1.jpg</imagen>
+        </producto>
+    </productos>
+</tienda>
